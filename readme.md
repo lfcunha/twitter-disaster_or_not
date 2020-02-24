@@ -41,7 +41,7 @@ ROC curve (and AUC measure): plot of True positive rate vs false positive rate. 
 Precision/recall curve: Plots how the precision is impacted as the model recalls more relevant documents (it will be less precise with higher recall)
 
 
-These models achieved accuracies of 0.77, 0.78, xx and xx for scikit naive bayes, LSTM/GloVe, bert, and CPT-2 respectively, on the test set (note that the true labels of the test set were obtained from the original dataset from [figure eight](https://www.figure-eight.com/data-for-everyone/).
+These models achieved F1 scores of 0.70, 0.70, 0.79 and xx for scikit naive bayes, LSTM/GloVe, bert, and GPT-2 respectively, on the test set (note that the true labels of the test set were obtained from the original dataset from [figure eight](https://www.figure-eight.com/data-for-everyone/).
 
 The performance using a Naive Bayes model and a LSTM with word embedings is very similar. It's likely that we don't have enough data to train the LSTM model. In fact, the 
 training plots of accuracy and loss of train vs valition sets shows the model is very overfit.
