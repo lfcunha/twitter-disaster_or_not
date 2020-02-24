@@ -50,7 +50,7 @@ training plots of accuracy and loss of train vs valition sets shows the model is
 ### Resources:
 - https://lilianweng.github.io/lil-log/2019/01/31/generalized-language-models.html
 - https://medium.com/mlreview/understanding-building-blocks-of-ulmfit-818d3775325b
-
+- https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb
 
 # TODO: lambda architecture here
 
